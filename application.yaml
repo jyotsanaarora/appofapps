@@ -10,5 +10,5 @@ spec:
   project: default
   source:
     path: ./
-    repoURL: https://github.com/jyotsanaarora/deploymentspecification.git
+    repoURL: https://github.com/jyotsanaarora/test.git
     targetRevision: HEAD
