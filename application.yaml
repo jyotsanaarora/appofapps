@@ -1,14 +1,1 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: testapp2new25
-  namespace: openshift-gitops
-spec:
-  destination:
-    namespace: openshift-gitops
-    server: https://kubernetes.default.svc
-  project: default
-  source:
-    path: ./
-    repoURL: https://github.com/jyotsanaarora/test.git
-    targetRevision: HEAD
+
