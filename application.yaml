@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: testapp2new
+  name: testapp2new23
   namespace: openshift-gitops
 spec:
   destination:
@@ -10,5 +10,5 @@ spec:
   project: default
   source:
     path: ./
-    repoURL: https://github.com/jyotsanaarora/test.git
+    repoURL: https://github.com/jyotsanaarora/deploymentspecification.git
     targetRevision: HEAD
